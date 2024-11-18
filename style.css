@@ -52,7 +52,7 @@ body{
 .first_body{
     position: relative;
 }
-.left_card{
+.left_card1{
     width: 300px;
     height: 35em;
     background-color: #0A21C0;
@@ -65,10 +65,10 @@ body{
 .contact_us{
     font-size: 30px;
 }
-.left_card img{
+.left_card1 img{
     width: 35px;
 }
-.left_card p{
+.left_card1 p{
     margin: 8px;
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -132,8 +132,7 @@ h2{
     margin-left: 40px;
     position: absolute;
     background-image: url(./images/sales.webp);
-    background-repeat: no-repeat;
-    background-size: 100rem;
+
 }
 .second_service{
     width: 300px;
@@ -144,8 +143,7 @@ h2{
     margin-left: 33rem;
     position: absolute;
     background-image: url(./images/repair.webp);
-    background-repeat: no-repeat;
-    background-size: 100rem;
+
 }
 .third_service{
     width: 300px;
@@ -156,8 +154,7 @@ h2{
     margin-left: 63rem;
     position: absolute;
     background-image: url(./images/recovery.jpg);
-    background-repeat: no-repeat;
-    background-size: 100rem;
+
 }
 .second_body_description{
     display: flex;
@@ -273,6 +270,9 @@ color: whitesmoke;
     font-size: 17px;
     outline: none;  
 }
+.left_card{
+    display: none;
+}
 footer{
     margin-top: -16px;
     background-color: #050A44;
@@ -293,21 +293,8 @@ footer{
     .heading input , .search_icon{
         display: none;
     }
-    .left_card{
-        position: relative;
-        background-color:#001F4B;
-        height: 40rem;
-        width: 84rem;
-        font-size: 23px;
-        text-align: center;
-        margin: 0;
-    }
-    .left_card img{
-        width: 70px;
-    }
-    .contact_us{
-        display: none;
-    }
+   
+    
     h1{
         margin-left: 18rem;
         font-size: 7rem;
@@ -338,18 +325,24 @@ footer{
         margin-left: 15rem;
         width: 60rem;
         height:60rem;
+        background-repeat: no-repeat;
+        background-size: 100rem;
     }
     .second_service{
         margin-top: 130rem;
         margin-left: 15rem;
         width: 60rem;
         height:60rem;
+        background-repeat: no-repeat;
+        background-size: 100rem;
     }
     .third_service{
         margin-top: 260rem;
         margin-left: 15rem;
         width: 60rem;
         height:60rem;
+        background-repeat: no-repeat;
+        background-size: 100rem;
     }
 
     .computer_sales{
@@ -412,6 +405,11 @@ footer{
     .note_input textarea{
         width: 900px;
         font-size: 50px;
+        font-weight: bolder;
+    }
+    .send_note{
+        width: 200px;
+        font-size: 70px;
     }
     .forth_body{
         height: 95rem;
@@ -427,26 +425,45 @@ footer{
         height: 80px;
         font-size: 40px;
     }
+    .forth_body> .send_comp{
+        width: 500px;
+        height: 100px;
+        font-size: 80px;
+        font-weight: bold;
+    }
     .forth_body textarea{
         width: 900px;
         height: 20rem;
         font-size: 50px;
     }
-    .submit{
-        width: 20rem; height: 8rem;
-        font-size: 70px;
-    }
+
 
     footer{
         padding-top: 20px;
-        height: 66rem;
+        height: 100rem;
         background-color: #001F4B;
         width: 84.2rem;
         color: white;
         font-size: 55px;
     }
+    .left_card{
+        position: relative;
+        background-color:#001F4B;
+        height: 40rem;
+        width: 84rem;
+        font-size: 23px;
+        text-align: center;
+        margin: 0;
+        display: inline-block;
+    }
+    .left_card img{
+        width: 80px;
+    }
+    .contact_us{
+        display: none;}
     .left_card p{
         font-size: 50px;
+        color: white;
     }
 
 }
