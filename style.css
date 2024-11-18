@@ -132,7 +132,8 @@ h2{
     margin-left: 40px;
     position: absolute;
     background-image: url(./images/sales.webp);
-    background-position: -30px;
+    background-repeat: no-repeat;
+    background-size: 100rem;
 }
 .second_service{
     width: 300px;
@@ -143,7 +144,8 @@ h2{
     margin-left: 33rem;
     position: absolute;
     background-image: url(./images/repair.webp);
-    background-position: -200px;
+    background-repeat: no-repeat;
+    background-size: 100rem;
 }
 .third_service{
     width: 300px;
@@ -154,7 +156,8 @@ h2{
     margin-left: 63rem;
     position: absolute;
     background-image: url(./images/recovery.jpg);
-    background-position: -150px;
+    background-repeat: no-repeat;
+    background-size: 100rem;
 }
 .second_body_description{
     display: flex;
@@ -287,9 +290,12 @@ footer{
     .heading{
         width: 84.3rem;
     }
+    .heading input , .search_icon{
+        display: none;
+    }
     .left_card{
-        background-color:#001F4B;
         position: relative;
+        background-color:#001F4B;
         height: 40rem;
         width: 84rem;
         font-size: 23px;
@@ -297,17 +303,18 @@ footer{
         margin: 0;
     }
     .left_card img{
-        width: +55px;
+        width: 70px;
     }
     .contact_us{
         display: none;
     }
     h1{
         margin-left: 18rem;
+        font-size: 7rem;
     }
     h2{
-        margin-left: 30rem;
-        margin-top: 30rem;
+        margin-left: 20rem;
+        margin-top: 50rem;
         font-weight: 900;
     }
 
@@ -319,33 +326,36 @@ footer{
     .second_body{
         margin-top: 35rem;
         height: 220rem;
-
         width: 85rem;
         display: inline-block;
     }
+    .second_body p {
+        font-size: 60px;
+        width: 70rem;
+    }
     .first_service{
         margin-top: 140px;
-        margin-left: 26rem;
-        width: 35rem;
-        height:35rem;
+        margin-left: 15rem;
+        width: 60rem;
+        height:60rem;
     }
     .second_service{
-        margin-top: 79rem;
-        margin-left: 26rem;
-        width: 35rem;
-        height:35rem;
+        margin-top: 130rem;
+        margin-left: 15rem;
+        width: 60rem;
+        height:60rem;
     }
     .third_service{
-        margin-top: 155rem;
-        margin-left: 26rem;
-        width: 35rem;
-        height:35rem;
+        margin-top: 260rem;
+        margin-left: 15rem;
+        width: 60rem;
+        height:60rem;
     }
 
     .computer_sales{
         width: 50rem;
         font-size: 35px;
-        margin-top: 37rem;
+        margin-top: 60rem;
         margin-left: -7rem;
     }
  
@@ -353,31 +363,90 @@ footer{
         width: 40rem;
         width: 50rem;
         font-size: 35px;
-        padding-top: 17rem;
+        margin-top: 60rem;
         margin-left: -7rem;
     }
     .data_recovery{
         width: 40rem;
         width: 50rem;
         font-size: 35px;
-        margin-top: 37rem;
+        margin-top: 60rem;
         margin-left: -7rem;
     }
     .second_body button{
         background-color: rgb(77, 8, 77);
-        width: 280px;
-        height: 80px;
+        width: 55rem;
+        height: 100px;
         margin: 0;
+        font-size: 70px;
     }
     #third_body{
-        margin-top: 264rem;
-        margin-left: 36%;
+        margin-top: 430rem;
+        margin-left: 16%;
+        width: 60rem;
+        height: 89rem;
+        font-size: 60px;
+        text-align: center;
+        
+    }
+    #third_body h3 {
+        font-size: 60px;
+    }
+    #third_body h4{
+        font-size: 60px;
+    }
+    #third_body button {
+        width: 350px;
+        height: 80px;
+        font-size: 40px;
+        margin-left: -40px;
+    }
+    .contact_button{
+        margin-left: 12rem;
+    }
+    .email_input input{
+        width: 550px;
+        height: 80px;
+        font-size: 40px;
+    }
+    .note_input textarea{
+        width: 900px;
+        font-size: 50px;
+    }
+    .forth_body{
+        height: 95rem;
+    }
+    .forth_body h3{
+        font-size: 80px;
+    }
+    .forth_body p{
+        font-size: 70px;
+    }
+    .forth_body input{
+        width: 550px;
+        height: 80px;
+        font-size: 40px;
+    }
+    .forth_body textarea{
+        width: 900px;
+        height: 20rem;
+        font-size: 50px;
+    }
+    .submit{
+        width: 20rem; height: 8rem;
+        font-size: 70px;
     }
 
     footer{
+        padding-top: 20px;
+        height: 66rem;
         background-color: #001F4B;
         width: 84.2rem;
         color: white;
+        font-size: 55px;
+    }
+    .left_card p{
+        font-size: 50px;
     }
 
 }
