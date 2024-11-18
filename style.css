@@ -1,6 +1,9 @@
 body{
     background-color:#6e5da8;
     margin: 0;
+    
+    
+
 }
 .heading{
     position: relative;
@@ -193,7 +196,7 @@ button{
 #third_body{
     width: 550px;
     height: 38rem;
-    background-color: #0A21C0;
+    background-color: #3480ac;
     margin-top: 75rem;
     margin-left: 30%;
     padding: 5px;
@@ -311,28 +314,29 @@ footer{
     .right_card{
         margin:0;
         width: 84.8rem;
-        height: 44rem;
+        height: 55rem;
     }
     .second_body{
         margin-top: 35rem;
         height: 220rem;
-       
+
         width: 85rem;
         display: inline-block;
     }
     .first_service{
+        margin-top: 140px;
         margin-left: 26rem;
         width: 35rem;
         height:35rem;
     }
     .second_service{
-        margin-top: 70rem;
+        margin-top: 79rem;
         margin-left: 26rem;
         width: 35rem;
         height:35rem;
     }
     .third_service{
-        margin-top: 145rem;
+        margin-top: 155rem;
         margin-left: 26rem;
         width: 35rem;
         height:35rem;
@@ -359,8 +363,14 @@ footer{
         margin-top: 37rem;
         margin-left: -7rem;
     }
+    .second_body button{
+        background-color: rgb(77, 8, 77);
+        width: 280px;
+        height: 80px;
+        margin: 0;
+    }
     #third_body{
-        margin-top: 250rem;
+        margin-top: 264rem;
         margin-left: 36%;
     }
 
