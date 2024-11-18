@@ -292,6 +292,9 @@ footer{
     .second_body_description{
         display: inline;
     }
+    .third_body{
+        margin-left: 50%;
+    }
     footer{
         width: 84.2rem;
     }
