@@ -1,10 +1,10 @@
 body{
-    background-color:"smokewhite";
+    background-color:#6e5da8;
     margin: 0;
 }
 .heading{
     position: relative;
-    background-color: #001F4B;
+    background-color: #050A44;
     width: 100%;
     height: 60px;
 }
@@ -52,12 +52,15 @@ body{
 .left_card{
     width: 300px;
     height: 35em;
-    background-color: #001F4B;
+    background-color: #0A21C0;
     position: absolute;
     border-radius: 20px;
     margin-left: 13px;
     text-align: center;
 
+}
+.contact_us{
+    font-size: 30px;
 }
 .left_card img{
     width: 35px;
@@ -73,7 +76,7 @@ body{
     height: 35em;
     /* background-color: #ddecf3; */
     background-color: rgb(176, 204, 226);
-    background-image: url(./images/computers.jpg);
+    background-image: url(./images/laptops.webp);
     position: absolute;
     margin: 0;
     margin-left: 325px; 
@@ -87,7 +90,7 @@ ul{
 }
 .left_card a{
     text-decoration: none;
-    color: #fb8500
+    color: #050A44
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -97,7 +100,7 @@ h1{
     position: absolute;
     margin-left: 100px;
     margin-top: 0px;
-    color: #fb8500
+    color: white;
 }
 h2{
     font-size: 30px;
@@ -105,10 +108,12 @@ h2{
     position: absolute;
     margin-left: 220px;
     margin-top: 50%;
-    color: #001F4B
+    color: #050A44;
+    font-weight:bolder;
+    font-size: 40px;
 }
 .second_body{
-    background-color:transparent blue;
+    color: white;
     width: 100%;
     height:px;
     position:absolute;
@@ -144,7 +149,7 @@ h2{
     background-color:antiquewhite;
     margin-top: 20px;
     margin-left: 63rem;
-    position: relative;
+    position: absolute;
     background-image: url(./images/recovery.jpg);
     background-position: -150px;
 }
@@ -152,40 +157,43 @@ h2{
     display: flex;
 }
 .computer_sales{
+    margin-top: 20rem;
     width: 320px;
     text-align: center;
-    margin-left: 50px;
-    color: #001F4B;
+    margin-left: 0px;
+    color: white;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .computer_repair{
     width: 360px;
     text-align: center;
-    margin-left: 150px;
-    color: #001F4B;
+    margin-top: 20rem;
+    margin-left: 10px;
+    color: white;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .data_recovery{
     width: 320px;
     text-align: center;
-    margin-left: 120px;
-    color: #001F4B;
+    margin-top: 20rem;
+    margin-left: 10px;
+    color: white;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 button{
     margin-top: 10px;
     height: 40px;
-    background-color: #fb8500;
+    background-color: #050A44;
     color: aliceblue;
 }
 
 #third_body{
     width: 550px;
     height: 38rem;
-    background-color: #001F4B;
+    background-color: #0A21C0;
     margin-top: 75rem;
     margin-left: 30%;
     padding: 5px;
@@ -233,7 +241,7 @@ color: whitesmoke;
     color: white;
     height: 600px;
     text-align: center;
-    background-color: #001F4B;
+    background-color: #141619;
 }
 .forth_body h3{
     text-align: center;
@@ -261,7 +269,7 @@ color: whitesmoke;
 }
 footer{
     margin-top: -16px;
-    background-color: #001F4B;
+    background-color: #050A44;
     height: 40px;
     text-align: center;
     width: 100%;
@@ -271,32 +279,95 @@ footer{
 {
     .body{
         margin: 0;
+        
     }
     .heading{
         width: 84.3rem;
     }
+    .left_card{
+        background-color:#001F4B;
+        position: relative;
+        height: 40rem;
+        width: 84rem;
+        font-size: 23px;
+        text-align: center;
+        margin: 0;
+    }
+    .left_card img{
+        width: +55px;
+    }
+    .contact_us{
+        display: none;
+    }
+    h1{
+        margin-left: 18rem;
+    }
+    h2{
+        margin-left: 20rem;
+        margin-top: 30rem;
+        font-weight: 900;
+    }
+
+    .right_card{
+        margin:0;
+        width: 84.8rem;
+        height: 44rem;
+    }
     .second_body{
         margin-top: 35rem;
+        height: 220rem;
+       
+        width: 85rem;
+        display: inline-block;
+    }
+    .first_service{
+        margin-left: 26rem;
+        width: 35rem;
+        height:35rem;
+    }
+    .second_service{
+        margin-top: 70rem;
+        margin-left: 26rem;
+        width: 35rem;
+        height:35rem;
+    }
+    .third_service{
+        margin-top: 145rem;
+        margin-left: 26rem;
+        width: 35rem;
+        height:35rem;
+    }
+
+    .computer_sales{
+        width: 50rem;
+        font-size: 35px;
+        margin-top: 37rem;
+        margin-left: -7rem;
     }
  
     .computer_repair{
-        margin-left: 30rem;
-        margin-top: -17rem;   
+        width: 40rem;
+        width: 50rem;
+        font-size: 35px;
+        padding-top: 17rem;
+        margin-left: -7rem;
     }
     .data_recovery{
-        margin-left: 62rem;
-        margin-top: -17rem;
+        width: 40rem;
+        width: 50rem;
+        font-size: 35px;
+        margin-top: 37rem;
+        margin-left: -7rem;
+    }
+    #third_body{
+        margin-top: 250rem;
+        margin-left: 36%;
+    }
 
-
-    }
-    .second_body_description{
-        display: inline;
-    }
-    .third_body{
-        margin-left: 50%;
-    }
     footer{
+        background-color: #001F4B;
         width: 84.2rem;
+        color: white;
     }
 
 }
